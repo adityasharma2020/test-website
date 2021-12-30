@@ -1,0 +1,57 @@
+/* default styling */
+
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header h1{
+font-weight:300;
+}
+header{
+    display: flex;
+    justify-content:space-between;
+    margin: 0 3rem;
+}
+
+nav{
+    position:relative;
+    top: 1rem;
+    width: 20rem;
+    
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+
+ul{
+    display: flex;
+    justify-content:space-between; 
+    /* if we dont mention the width of nav this will not make any visual change as as number of elemnt increases according to that size of nav chages.so first we have to specify the size of nav. */
+   
+}
+li{
+    list-style:none;
+}
+
+article{
+    display: flex;
+}
+.content{
+    margin-right: 2rem;
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+footer{
+    background-color: black;
+    color: aqua;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
